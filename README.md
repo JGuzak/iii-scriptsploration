@@ -34,4 +34,6 @@ silly little screensaver script. Doesn't output midi or anything cool. Just blin
 
 ### Sliders
 
+*Does NOT work yet*
+
 Playing with a virtual silder UI element spread across buttons. Velocity adjustable virtual sliding.
