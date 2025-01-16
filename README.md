@@ -31,3 +31,7 @@ or
 ### Droplets
 
 silly little screensaver script. Doesn't output midi or anything cool. Just blinky. Might expand this idea in the future?
+
+### Sliders
+
+Playing with a virtual silder UI element spread across buttons. Velocity adjustable virtual sliding.
