@@ -24,7 +24,7 @@ There are two ways to upload scripts;
 
 or
 
-1. Use this command to upload scripts without launching the repl: `diii upload <script name>.lua`
+Use this command to upload scripts without launching the repl: `diii upload <script name>.lua`
 
 ## Scripts
 
@@ -34,6 +34,12 @@ silly little screensaver script. Doesn't output midi or anything cool. Just blin
 
 ### Sliders
 
-*Does NOT work yet*
+*UNDER CONSTRUCTION*
 
 Playing with a virtual silder UI element spread across buttons. Velocity adjustable virtual sliding.
+
+### Chordal
+
+*UNDER CONSTRUCTION*
+
+A midi chord generator with playable controls for note count, spread, inversions, and key/scale.
