@@ -19,6 +19,7 @@ There are two ways to upload scripts;
 
 1. Launch the repl with the following command: `diii`
 2. Use the following command to upload scripts: `u <script name>.lua`
+3. `^^c` clears the currently flashed script
 
 *`q` to exit the repl*
 

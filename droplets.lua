@@ -10,7 +10,6 @@ local droplets = {}
 
 function age_droplets()
 	for index, value in pairs(droplets) do
-		-- print("index:", index[1], index[2], "value:", value)
 		droplets[index] = value - 1
 
 		grid_led(index[1], index[2], droplets[index])
@@ -27,15 +26,11 @@ function seed_droplet()
 	local y_pos = math.random(1, MAX_Y+1)
 
 	droplets[{x_pos, y_pos}] = MAX_AGE
-	-- print("x: ", x_pos, "y: ", y_pos)
-	-- if (droplets[{x_pos, y_pos}] ~= nil) then
-	-- 	print("item is in droplets list")
-	-- else
-	-- 	print("item not in droplets table")
-	-- end
 end
 
-metro = function(index, count)
+metro.new(tick, 100)
+
+function tick()
 	age_droplets()
 
 	local seed = math.random(0, 100)
@@ -49,5 +44,3 @@ end
 grid = function(x,y,z)
 	grid_refresh()
 end
-
-metro_set(1, 75)
