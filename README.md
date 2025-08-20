@@ -29,15 +29,25 @@ Use this command to upload scripts without launching the repl: `diii upload <scr
 
 ## Scripts
 
-### Droplets
+### Dots
 
-silly little screensaver script. Doesn't output midi or anything cool. Just blinky. Might expand this idea in the future?
+*UNDER CONSTRUCTION*
+
+Silly little screensaver script. Doesn't output midi or anything cool. Just blinky. Might expand this idea in the future?
+
+Requires at least build `250201` to run properly.
 
 ### Sliders
 
 *UNDER CONSTRUCTION*
 
 Playing with a virtual silder UI element spread across buttons. Velocity adjustable virtual sliding.
+
+### Sprites
+
+*UNDER CONSTRUCTION*
+
+A simple sprite drawing system
 
 ### Chordal
 
